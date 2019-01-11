@@ -1,0 +1,13 @@
+<h3>Here are some Numbers!</h3>
+<div id="numbers">
+    @model ViewModelFun.Models.BunchaNumbers
+    @{
+        for(var idx = 0; idx < Model.numbers.Length; idx++)
+        {
+            <p>@Model.numbers[idx]</p>
+        }
+    }
+
+
+
+</div>
